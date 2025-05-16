@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data and Models
+# Exclude large datasets and trained models
+/data/model.joblib
+/data/vectorizer.joblib
+/data/results.json
+
+# Include sample data
+!/data/sample_resume_job_dataset.json
+
+# Keep data directory structure
+!/data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*.ipynb
+
+# Environment and secrets
+.env
+*.env
+.env.local
+
+# OS specific
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
