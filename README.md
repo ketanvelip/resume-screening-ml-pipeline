@@ -98,7 +98,7 @@ To use the CI/CD pipeline:
 ## Future Enhancements
 - Add web UI for easier interaction
 - Implement more sophisticated features (skill extraction, keyword matching)
-- Deploy to cloud provider (AWS, GCP, Azure)
+- Deploy to cloud provider (AWS, GCP, Azure, DO)
 - Add user authentication and rate limiting
 
 ---
